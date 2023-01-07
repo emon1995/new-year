@@ -54,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 87px;
   width: 70%;
   height: 65vh;
   margin: 130px 322px 130px 206px;
@@ -61,16 +62,11 @@
 
 .failure-img {
   width: 50%;
-  margin-right: 87px;
-}
-
-.failure-img,
-img {
-  width: 80%;
 }
 
 .failure-details {
   width: 50%;
+  padding-top: 70px;
 }
 
 .failure-title {
@@ -110,7 +106,7 @@ img {
 
 .plan-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .plan-item {
@@ -141,7 +137,7 @@ img {
   background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
     url("../images/watch.png");
   background-repeat: no-repeat;
-
+  background-size: cover;
   border-radius: 8px;
   margin: auto;
   margin-top: 130px;
@@ -153,4 +149,66 @@ img {
   color: #ffffff;
   width: 459px;
   margin-bottom: 24px;
+}
+
+/* Footer Future section styles */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+  padding: 130px 0;
+  background: #151414;
+  color: #f8f8f8;
+}
+
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.future-subtitle {
+  margin-bottom: 24px;
+  width: 485px;
+}
+
+.future-email {
+  margin-bottom: 16px;
+}
+
+.future-phone {
+  margin-bottom: 32px;
+}
+
+.future-social {
+  display: flex;
+  gap: 10px;
+}
+
+.future-social img {
+  width: 47px;
+  height: 46px;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
+.footer-subscribe input {
+  padding: 21px;
+  border-radius: 6px;
+  border-color: white;
+  font-size: 18px;
+  color: white;
+  background: #151414;
+  margin-bottom: 16px;
+}
+
+.btn-subscribe {
+  background: #005fac;
+  border-radius: 8px;
+  color: #ffffff;
 }
