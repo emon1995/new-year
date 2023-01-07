@@ -64,6 +64,10 @@
   width: 50%;
 }
 
+.failure-img img {
+  width: 80%;
+}
+
 .failure-details {
   width: 50%;
   padding-top: 70px;
@@ -109,8 +113,8 @@
   justify-content: space-between;
 }
 
-.plan-item {
-}
+/* .plan-item {
+} */
 
 .plan-item-img {
   width: 92.96px;
