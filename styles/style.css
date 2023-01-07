@@ -139,13 +139,17 @@
   width: 70%;
   height: 300px;
   padding: 64px;
-  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
-    url("../images/watch.png");
+  /* One image and linear-gradient use  */
+  /* background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png"); */
+  /* Two image use */
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8px;
   margin: auto;
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 .positive-mindset-title {
@@ -154,6 +158,62 @@
   color: #ffffff;
   width: 459px;
   margin-bottom: 24px;
+}
+
+/* My Goal section styles */
+.goal {
+  width: 75%;
+  margin: auto;
+}
+.goal-section {
+  text-align: center;
+}
+
+.goal-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.goal-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin: 30px 145px 50px;
+}
+
+.skills-container {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 24px;
+}
+
+.skill {
+  /* background: #005fac; */
+  background: white;
+  box-shadow: 0px 6px 50px rgba(34, 31, 31, 0.4);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill img {
+  width: 44px;
+  height: 44px;
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  /* color: white; */
+  color: #000;
+  margin-top: 30px;
+}
+
+.skill-desc {
+  /* color: white; */
+  color: #000;
+  margin-top: 20px;
 }
 
 /* Footer Future section styles */
